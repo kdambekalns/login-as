@@ -167,6 +167,7 @@ class ImpersonateService
 
     /**
      * @param string $key
+     * @return mixed
      * @throws SessionNotStartedException
      */
     protected function getSessionData(string $key)
